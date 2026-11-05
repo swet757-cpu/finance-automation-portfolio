@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Портфолио Светланы Волчковой — финансы, управленческий учёт и автоматизация.">
+  <title>Светлана Волчкова — финансы и автоматизация</title>
+  <link rel="stylesheet" href="styles.css?v=11">
+  <script src="script.js?v=11" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="На главную">
+      <span class="brand-mark">СВ</span>
+      <span>Светлана Волчкова</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">Меню</button>
+    <nav id="main-nav" class="nav" aria-label="Основная навигация">
+      <a href="#about">Обо мне</a>
+      <a href="#cases">Кейсы</a>
+      <a href="#approach">Подход</a>
+      <a href="#gift">Помощник</a>
+      <a href="#contact">Контакты</a>
+      <a class="button button-small" href="assets/portfolio-svetlana-volchkova.pptx" download>Скачать презентацию</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Финансы × автоматизация</p>
+        <h1>Финансист, который автоматизирует управленческий учёт</h1>
+        <p class="lead">Сначала разбираюсь в финансовой логике, правилах и контрольных точках. Затем создаю инструмент и проверяю расчёты.</p>
+        <div class="hero-actions">
+          <a class="button" href="#cases">Смотреть кейсы</a>
+          <a class="text-link" href="#contact">Связаться <span aria-hidden="true">→</span></a>
+        </div>
+        <ul class="skills" aria-label="Инструменты">
+          <li>Excel</li><li>Power Query</li><li>1С</li><li>Python</li><li>JavaScript</li><li>ИИ</li>
+        </ul>
+      </div>
+      <div class="codex-card reveal">
+        <p class="case-kicker">Автоматизация с Codex</p>
+        <h2>От финансовой логики — к рабочему решению</h2>
+        <p>Использую Codex как инструмент разработки: превращаю правила управленческого учёта в отчёты, калькуляторы, боты и мини-приложения.</p>
+        <p class="codex-note">Постановка задачи, финансовая методология и контроль результата остаются за мной.</p>
+      </div>
+    </section>
+
+    <section id="about" class="about section-shell reveal">
+      <p class="section-number">01 / Обо мне</p>
+      <div class="about-grid">
+          <h2>Не просто автоматизация. Сначала — смысл задачи.</h2>
+        <div>
+          <p class="large-copy">Моя основа — финансы и управленческий учёт. С помощью Codex создаю инструменты, которые убирают ручные операции, сохраняют контроль и делают результат понятным пользователю.</p>
+          <p class="muted">В портфолио показаны подтверждённые функции рабочих проектов. Данные компаний не раскрываются.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cases" class="cases section-shell">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-number">02 / Кейсы</p>
+          <h2>Автоматизация финансовых и рабочих процессов</h2>
+        </div>
+        <p>Четыре проекта: от банковской выгрузки до Telegram-бота и мини-приложения.</p>
+      </div>
+
+      <article class="case case-dds reveal">
+        <div class="case-copy">
+          <p class="case-kicker">Кейс 01 · Excel / Power Query</p>
+          <h3>Автообновление отчёта ДДС</h3>
+          <p>Локальная обработка банковской выгрузки и обновление управленческого отчёта одной командой.</p>
+          <ul class="check-list">
+            <li>повторная загрузка не создаёт дубли;</li>
+            <li>история сохраняется, исходный файл не изменяется;</li>
+            <li>при ошибке остаётся предыдущий отчёт и показывается причина;</li>
+            <li>данные остаются локально.</li>
+          </ul>
+        </div>
+        <div class="process-card" aria-label="Схема обновления отчёта ДДС">
+          <div class="file-tile"><span>XLSX</span><strong>Выгрузка банка</strong><small>исходные данные</small></div>
+          <span class="process-arrow">→</span>
+          <div class="run-tile"><span>01</span><strong>Обновить</strong><small>одна команда</small></div>
+          <span class="process-arrow">→</span>
+          <div class="file-tile result"><span>ДДС</span><strong>Готовый отчёт</strong><small>без дублей</small></div>
+        </div>
+      </article>
+
+      <article id="meetmaster" class="case case-image reveal">
+        <div class="case-media phone-media">
+          <img src="assets/meetmaster.png" alt="Экран Telegram-мини-приложения MeetMaster" loading="lazy">
+        </div>
+        <div class="case-copy">
+          <p class="case-kicker">Кейс 02 · Telegram / Google Calendar</p>
+          <h3>MeetMaster — календарь встреч</h3>
+          <p>Мини-приложение для выбора времени и согласования встреч. После подтверждения событие создаётся в Google Calendar.</p>
+          <div class="fact-grid">
+            <div><strong>09:00–17:00</strong><span>слоты в будни</span></div>
+            <div><strong>30 / 45 / 60</strong><span>минут на встречу</span></div>
+            <div><strong>15 минут</strong><span>буфер между встречами</span></div>
+          </div>
+          <p class="muted">Администратор может подтвердить, отклонить, перенести или отменить заявку.</p>
+        </div>
+      </article>
+
+      <article class="case case-image reverse reveal">
+        <div class="case-copy">
+          <p class="case-kicker">Кейс 03 · Финансовая модель / интерфейс</p>
+          <h3>Калькулятор экономики продукта</h3>
+          <p>Инструмент переводит исходные параметры продукта в понятные финансовые ориентиры для решения о запуске.</p>
+          <ul class="tag-list" aria-label="Результаты калькулятора">
+            <li>цена</li><li>бюджет запуска</li><li>точка безубыточности</li><li>срок возврата</li><li>ROI</li>
+          </ul>
+          <p class="muted">В расчёте явно показаны формулы и ограничения.</p>
+          <p class="source">Источник: README проекта «Калькулятор экономики брюк».</p>
+        </div>
+        <div class="case-media browser-media">
+          <img src="assets/calculator.png" alt="Экран калькулятора экономики продукта" loading="lazy">
+        </div>
+      </article>
+
+      <article class="case case-image reveal">
+        <div class="case-media report-media">
+          <img src="assets/osv-report.png" alt="Фрагмент отчёта, сформированного ботом проверки ОСВ" loading="lazy">
+        </div>
+        <div class="case-copy">
+          <p class="case-kicker">Кейс 04 · Telegram / Excel / Python</p>
+          <h3>Бот проверки ОСВ</h3>
+          <p>Telegram-бот принимает ОСВ и правила мэппинга, выполняет проверки и возвращает структурированный Excel-отчёт.</p>
+          <ul class="check-list">
+            <li>режимы «Аудитор» и «Авто-корректор»;</li>
+            <li>проверка счёта 20, отрицательных остатков и аномалий;</li>
+            <li>листы P&amp;L, BS и ОСВ в готовом файле;</li>
+            <li>исправленный мэппинг сохраняется отдельно, исходник не меняется.</li>
+          </ul>
+          <div class="verified-note"><strong>7 отчётов</strong><span>сформировано в рабочей папке проекта</span></div>
+          <p class="source">Источник: README, обработчики бота и сформированные отчёты проекта.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="approach" class="approach section-shell reveal">
+      <div class="section-heading compact">
+        <div>
+          <p class="section-number">03 / Подход</p>
+          <h2>От финансовой задачи — к рабочему инструменту</h2>
+        </div>
+      </div>
+      <ol class="steps">
+        <li><span>01</span><strong>Понять смысл</strong><p>Что считает бизнес и какое решение нужно принять.</p></li>
+        <li><span>02</span><strong>Зафиксировать правила</strong><p>Источники, формулы, исключения и ограничения.</p></li>
+        <li><span>03</span><strong>Встроить контроль</strong><p>Проверки, защита исходников и понятные ошибки.</p></li>
+        <li><span>04</span><strong>Автоматизировать</strong><p>Удобный сценарий для регулярной работы.</p></li>
+      </ol>
+    </section>
+
+    <section id="gift" class="gift section-shell reveal">
+      <div class="gift-copy">
+        <p class="section-number">Встроенное приложение</p>
+        <h2>Спасатель денежного потока</h2>
+        <p>Ответьте на несколько простых вопросов и получите расчёт или понятный вывод прямо на этой странице.</p>
+        <ul class="gift-points">
+          <li>без Telegram и регистрации;</li>
+          <li>без скачивания файлов;</li>
+          <li>ответы обрабатываются только в браузере и не сохраняются.</li>
+        </ul>
+        <p class="gift-note">Вывод основан только на введённых ответах. Если данных недостаточно, приложение прямо сообщит об этом.</p>
+      </div>
+      <div class="cash-app" data-cash-app aria-live="polite">
+        <div class="cash-app__topline">
+          <span class="cash-app__badge">Финансовый помощник</span>
+          <span class="cash-app__step" data-app-step>Выбор задачи</span>
+        </div>
+        <div class="cash-app__screen" data-app-screen></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-shell reveal">
+      <div>
+        <p class="section-number">04 / Контакты</p>
+        <h2>Обсудим задачу?</h2>
+        <p>Рассматриваю удалённую, полную, частичную или проектную занятость. Возможны редкие командировки.</p>
+      </div>
+      <div class="contact-links">
+        <a href="tel:+79687383326"><span>Телефон</span><strong>+7 (968) 738-33-26</strong></a>
+        <a href="mailto:swetlana.vol4kova@yandex.ru"><span>Почта</span><strong>swetlana.vol4kova@yandex.ru</strong></a>
+        <a href="assets/portfolio-svetlana-volchkova.pptx" download><span>Материалы</span><strong>Скачать презентацию</strong></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-shell">
+    <span>© <span id="year"></span> Светлана Волчкова</span>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+</body>
+</html>
