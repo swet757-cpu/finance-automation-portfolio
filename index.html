@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Портфолио Светланы Волчковой — финансы, управленческий учёт и автоматизация.">
   <title>Светлана Волчкова — финансы и автоматизация</title>
-  <link rel="stylesheet" href="styles.css?v=11">
-  <script src="script.js?v=11" defer></script>
+  <link rel="stylesheet" href="styles.css?v=12">
+  <script src="script.js?v=12" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -64,7 +64,7 @@
           <p class="section-number">02 / Кейсы</p>
           <h2>Автоматизация финансовых и рабочих процессов</h2>
         </div>
-        <p>Четыре проекта: от банковской выгрузки до Telegram-бота и мини-приложения.</p>
+        <p>Семь проектов: финансовые отчёты, дашборды, диагностика и интеграции.</p>
       </div>
 
       <article class="case case-dds reveal">
@@ -139,6 +139,78 @@
           <p class="source">Источник: README, обработчики бота и сформированные отчёты проекта.</p>
         </div>
       </article>
+
+      <article class="case reveal">
+        <div class="case-copy">
+          <p class="case-kicker">Кейс 05 · Google Sheets / Apps Script</p>
+          <h3>Finance Dashboard Pro</h3>
+          <p>Веб-приложение превращает базу операций в финансовый дашборд с фильтрами, отчётами и заметками.</p>
+          <ul class="check-list">
+            <li>ДДС: поступления, списания и чистый денежный поток;</li>
+            <li>ОПиУ: выручка, расходы, прибыль и рентабельность;</li>
+            <li>графики по месяцам и статьям;</li>
+            <li>справочники загружаются из Google Sheets.</li>
+          </ul>
+          <p class="source">Источник: локальные материалы проекта.</p>
+        </div>
+        <div class="dashboard-preview" aria-label="Макет интерфейса Finance Dashboard Pro">
+          <div class="dashboard-preview__side">
+            <strong>FINANCE</strong>
+            <span class="active">ДДС</span><span>ОПиУ</span><span>Графики</span><span>Заметки</span>
+          </div>
+          <div class="dashboard-preview__main">
+            <div class="dashboard-preview__head"><span>Финансовый дашборд</span><b>ДДС</b></div>
+            <div class="dashboard-preview__cards"><i></i><i></i><i></i></div>
+            <div class="dashboard-preview__chart"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="case reverse reveal">
+        <div class="case-copy">
+          <p class="case-kicker">Кейс 06 · Диагностика / веб-приложение</p>
+          <h3>Диагностика управленческого учёта</h3>
+          <p>Интерактивный опрос помогает определить финансовые риски и понять, какие управленческие отчёты нужны бизнесу.</p>
+          <ul class="check-list">
+            <li>20 вопросов о деньгах, прибыли и отчётности;</li>
+            <li>оценка риска по заданным правилам;</li>
+            <li>рекомендации по составу отчётов и следующему шагу;</li>
+            <li>ответы остаются в браузере.</li>
+          </ul>
+          <p class="source">Источник: локальные материалы проекта.</p>
+        </div>
+        <div class="diagnostic-preview" aria-label="Макет приложения диагностики управленческого учёта">
+          <div class="diagnostic-preview__top"><span>Диагностика</span><strong>01 / 20</strong></div>
+          <h4>Как сейчас контролируются деньги в бизнесе?</h4>
+          <div class="diagnostic-preview__option active"><span></span>Есть платёжный календарь</div>
+          <div class="diagnostic-preview__option"><span></span>Контроль ведётся вручную</div>
+          <div class="diagnostic-preview__option"><span></span>Единого процесса нет</div>
+          <div class="diagnostic-preview__progress"><i></i></div>
+        </div>
+      </article>
+
+      <article class="case reveal">
+        <div class="case-copy">
+          <p class="case-kicker">Кейс 07 · amoCRM / n8n / Финтабло</p>
+          <h3>Передача завершённых сделок без дублей</h3>
+          <p>Автоматизация переносит успешно завершённые сделки из CRM в финансовый сервис и проверяет уникальность записи.</p>
+          <ul class="check-list">
+            <li>запуск по изменению статуса сделки;</li>
+            <li>проверка статуса перед передачей;</li>
+            <li>контроль дублей по идентификатору сделки;</li>
+            <li>сверка количества и общей суммы.</li>
+          </ul>
+          <p class="source">Источник: локальные материалы проекта.</p>
+        </div>
+        <div class="reconcile-preview" aria-label="Подтверждённый результат сверки интеграции">
+          <p>Результат контрольной сверки</p>
+          <div class="reconcile-preview__systems">
+            <div><span>amoCRM</span><strong>6 сделок</strong><small>1 135 000 ₽</small></div>
+            <div><span>Финтабло</span><strong>6 сделок</strong><small>1 135 000 ₽</small></div>
+          </div>
+          <div class="reconcile-preview__status"><span>✓</span><strong>Количество и сумма совпадают</strong></div>
+        </div>
+      </article>
     </section>
 
     <section id="approach" class="approach section-shell reveal">
@@ -197,3 +269,4 @@
   </footer>
 </body>
 </html>
+
