@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="394" viewBox="0 0 1300 394" role="img" aria-labelledby="title desc">
+  <title id="title">Фрагмент отчёта P&amp;L и BS</title>
+  <desc id="desc">P&amp;L за девять месяцев 2025 года и управленческий баланс на 1 января и 1 октября 2025 года.</desc>
+  <style>
+    .bg{fill:#f7f8f3}.head{fill:#c9d9d5}.total{fill:#b8ceca}.line{stroke:#617b78;stroke-width:1.5}.outer{stroke:#16877f;stroke-width:4;stroke-dasharray:8 5;fill:none}.t{font-family:"Segoe UI",Arial,sans-serif;fill:#203136;font-size:22px}.sm{font-size:19px}.h{font-size:25px;font-weight:700}.num{text-anchor:end;font-variant-numeric:tabular-nums}.label{text-anchor:end}.center{text-anchor:middle}.bold{font-weight:700}
+  </style>
+  <rect class="bg" x="2" y="2" width="1296" height="390" rx="3"/>
+  <rect class="head" x="4" y="4" width="490" height="42"/>
+  <rect class="head" x="494" y="4" width="150" height="42"/>
+  <rect class="head" x="644" y="4" width="350" height="42"/>
+  <rect class="head" x="994" y="4" width="151" height="42"/>
+  <rect class="head" x="1145" y="4" width="151" height="42"/>
+  <rect class="total" x="4" y="330" width="640" height="60"/>
+  <rect class="total" x="644" y="330" width="652" height="60"/>
+  <line class="line" x1="494" y1="4" x2="494" y2="390"/>
+  <line class="line" x1="644" y1="4" x2="644" y2="390"/>
+  <line class="line" x1="994" y1="4" x2="994" y2="390"/>
+  <line class="line" x1="1145" y1="4" x2="1145" y2="390"/>
+  <line class="line" x1="4" y1="46" x2="1296" y2="46"/>
+  <line class="line" x1="4" y1="330" x2="1296" y2="330"/>
+
+  <text class="t h center" x="249" y="33">P&amp;L</text>
+  <text class="t sm center" x="569" y="31">2025 (9 месяцев)</text>
+  <text class="t h center" x="819" y="33">BS</text>
+  <text class="t sm center" x="1069" y="31">01.01.2025</text>
+  <text class="t sm center" x="1220" y="31">01.10.2025</text>
+
+  <text class="t label" x="468" y="82">Выручка</text><text class="t num" x="624" y="82">105 069 288</text>
+  <text class="t label" x="468" y="122">Себестоимость</text><text class="t num" x="624" y="122">-19 569 008</text>
+  <text class="t label" x="468" y="162">Коммерческие расходы</text><text class="t num" x="624" y="162">0</text>
+  <text class="t label" x="468" y="202">Общехозяйственные расходы</text><text class="t num" x="624" y="202">-30 376 338</text>
+  <text class="t label" x="468" y="242">Прочие доходы</text><text class="t num" x="624" y="242">3 191 178</text>
+  <text class="t label" x="468" y="282">Прочие расходы</text><text class="t num" x="624" y="282">-195 502</text>
+  <text class="t label bold" x="468" y="367">Финансовый результат</text><text class="t num bold" x="624" y="367">58 119 616</text>
+
+  <text class="t label" x="974" y="76">ДЗ</text><text class="t num" x="1126" y="76">3 490 141</text><text class="t num" x="1278" y="76">162 209 606</text>
+  <text class="t label" x="974" y="112">КЗ</text><text class="t num" x="1126" y="112">4 223 518</text><text class="t num" x="1278" y="112">13 979 206</text>
+  <text class="t label" x="974" y="148">Кредиты и займы</text><text class="t num" x="1126" y="148">480 865</text><text class="t num" x="1278" y="148">3 000</text>
+  <text class="t label" x="974" y="184">Финансовые вложения</text><text class="t num" x="1126" y="184">22 824 553</text><text class="t num" x="1278" y="184">25 315 879</text>
+  <text class="t label" x="974" y="220">Деньги</text><text class="t num" x="1126" y="220">112 262 223</text><text class="t num" x="1278" y="220">50 941</text>
+  <text class="t label" x="974" y="256">Оборотные активы</text><text class="t num" x="1126" y="256">135 093 152</text><text class="t num" x="1278" y="256">174 858 032</text>
+  <text class="t sm label" x="974" y="292">Краткосрочные обязательства</text><text class="t num" x="1126" y="292">10 942 581</text><text class="t num" x="1278" y="292">2 438 261</text>
+  <text class="t label" x="974" y="323">Чистый оборотный капитал</text><text class="t num" x="1126" y="323">124 150 570</text><text class="t num" x="1278" y="323">172 420 765</text>
+  <text class="t label bold" x="974" y="367">Стоимость компании</text><text class="t num bold" x="1126" y="367">224 894 726</text><text class="t num bold" x="1278" y="367">119 435 559</text>
+  <rect class="outer" x="3" y="3" width="1294" height="388" rx="3"/>
+</svg>
+
